@@ -6,3 +6,6 @@ n=100
 vals = np.random.normal(loc=mu, scale=sigma, size=n)
 suma = 3+1
 print(vals)
+
+df = pd.DataFrame(vals)
+print(df.describe())
